@@ -14,7 +14,6 @@ use Conifer\Post\Image;
 /**
  * High-level behavior for WP Posts, on top of TimberPost class
  */
-abstract class Post extends TimberPost {
   use HasTerms;
 
   const RELATED_POST_COUNT = 3;
